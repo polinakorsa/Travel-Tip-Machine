@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("pictures/mountain2.jpg") no-repeat ;
+    background-size: cover;
+    margin: 0 50px;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/vagesha_rolenda/Vagesha Rolenda.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "MyCustomFont";
+    font-size: 130px;
+    margin-top: -100px;
+    margin-bottom: 2px;
+    color: #FAF3B7;
+}
+
+@font-face {
+    font-family: 'MyCustomFont2';
+    src: url('fonts/vagesha_rolenda/Vagesha Rolenda.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'MyCustomFont2';
+    font-size: 40px;
+    margin-top: 2px;
+    margin-bottom: 120px;
+    font-weight: bold;
+    font-style: italic;
+    color: #FAF3B7;
+}
+
+
+
+.quoteMachine {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 200px;
+}
+
+
+@font-face {
+    font-family: 'MyCustomFont3';
+    src: url('fonts/salsify/Salsify DEMO.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.quoteResult {
+    display: block;
+    margin: 0 auto;
+    font-family: "MyCustomFont3";
+    font-size: 35px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'MyCustomFont4';
+    src: url('fonts/paperlogy/Paperlogy-5Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.quoteButton {
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    background-color: #d3d3d3;
+    font-family: 'MyCustomFont4';
+    font-size: 14px;
+    padding: 14px;
+    cursor: pointer;
+}
+
+
+.quoteContainer {
+
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
