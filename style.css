@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("pictures/mountain2.jpg") no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/pexels-evgeny-tchebotarev-1058775-2187605.jpg") no-repeat ;
     background-size: cover;
     margin: 0 50px;
 }
@@ -14,7 +14,7 @@ body {
 
 h1 {
     text-align: center;
-    font-family: "MyCustomFont";
+    font-family: "MyCustomFont", serif;
     font-size: 130px;
     margin-top: -100px;
     margin-bottom: 2px;
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: 'MyCustomFont2';
+    font-family: 'MyCustomFont2', serif;
     font-size: 40px;
     margin-top: 2px;
     margin-bottom: 120px;
@@ -50,7 +50,7 @@ h2 {
 
 
 @font-face {
-    font-family: 'MyCustomFont3';
+    font-family: 'MyCustomFont3', serif;
     src: url('fonts/salsify/Salsify DEMO.otf');
     font-weight: normal;
     font-style: normal;
@@ -59,7 +59,7 @@ h2 {
 .quoteResult {
     display: block;
     margin: 0 auto;
-    font-family: "MyCustomFont3";
+    font-family: "MyCustomFont3", serif;
     font-size: 35px;
     text-align: center;
     border-radius: 5px;
@@ -84,7 +84,7 @@ h2 {
     margin-right: auto;
     border: 3px solid black;
     background-color: #d3d3d3;
-    font-family: 'MyCustomFont4';
+    font-family: 'MyCustomFont4', serif;
     font-size: 14px;
     padding: 14px;
     cursor: pointer;
@@ -100,21 +100,68 @@ h2 {
     gap: 10px
 }
 
-.speakButton {
-        display: inline-block;
-        border-radius: 10px;
-        margin-top: 5px;
-        margin-left: auto;
-        margin-right: auto;
-        border: 1px solid black;
-        background-color: #FAF3B7;
-        font-size: 14px;
-        padding: 8px;
-        cursor: pointer;
+.speakButton, .settingsButton {
+    display: inline-block;
+    border-radius: 160px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    background-color: #FAF3B7;
+    font-size: 14px;
+    padding: 15px;
+    cursor: pointer;
     }
 
 
+.settings-container{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    text-align: center;
+    height: 400px;
+    width: 260px;
+}
 
+.settings-popup{
+   position: absolute;
+   display: none;
+   top: 70px;
+}
 
+.show{
+    display: block;
+    border: 3px solid black;
+    background-color: lightgrey;
+    border-radius: 50px;
+    font-family: MyCustomFont4, serif;
+    font-size: 13px;
+    height: 250px;
+    width: 250px;
 
+}
 
+.slider{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 180px;
+    height: 15px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    background: url("images/totoro.png") no-repeat center;
+    background-size: contain;
+    border: none;
+}
+
+.speed-settings, .volume-settings, .pitch-settings{
+    height: 65px;
+}

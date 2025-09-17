@@ -14,31 +14,54 @@
 
 <body>
 
-<div id="quoteMachine" class="quoteMachine" >
 
-    <h1>Best Travel Quotes</h1>
-    <h2> For Travel Inspiration</h2>
+    <div id="quoteMachine" class="quoteMachine">
 
-    <div class="quoteContainer">
-    <p id="quote" class="quoteResult">Adventure is worthwhile</p>
-    </div>
+    <h1>Japan Travel Tips </h1>
+    <h2>Discover Hidden Gems and Local Secrets</h2>
+
+      <div class="quoteContainer">
+        <p id="quote" class="quoteResult">Adventure is worthwhile</p>
+      </div>
 
     <button id="speakBtn" class="speakButton">🔊</button>
-    <button id="btn" class="quoteButton">Generate Quote</button>
+    <button id="btn" class="quoteButton">Get a tip</button>
+    </div>
+
+    <div class="settings-container">
+    <button id="audioSettingsBtn" class="settingsButton">Audio Controls️</button>
+
+        <div class="settings-popup">
+
+            <div class="volume-settings">
+              <p>Volume</p>
+              <input type="range" min="1" max="100" value="10" class="slider" id="volume-slider">
+            </div>
+
+            <div class="pitch-settings">
+                <p>Pitch</p>
+                <input type="range" min="1" max="100" value="10" class="slider" id="pitch-slider">
+            </div>
 
 
-</div>
+            <div class="speed-settings">
+                <p>Speed</p>
+                <input type="range" min="1" max="100" value="10" class="slider" id="speed-slider">
+            </div>
+
+        </div>
+    </div>
 
 
 <div id="canvas"></div>
-<div id="cont">
-</div>
-
+<div id="cont"></div>
 <div class="words"></div>
 
 <script src="script.js"></script>
 <script src="fog.js"></script>
 <script src="speech_machine.js"></script>
+<script src="popup.js"></script>
+
 
 </body>
 </html>

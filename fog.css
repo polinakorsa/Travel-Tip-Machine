@@ -1,17 +1,15 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("pictures/mountain2.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/pexels-evgeny-tchebotarev-1058775-2187605.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     overflow: hidden;
 }
+
 #canvas {
     width: 100%;
-    height: 320px;
+    height: 500px;
     position: relative;
     z-index: 20;
     pointer-events: none;
 }
-
-
-
