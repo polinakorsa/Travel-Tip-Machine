@@ -4,9 +4,9 @@ const settingsPopUp = document.querySelector(".settings-popup");
 const volumeSlider = document.getElementById("volume-slider");
 const pitchSlider = document.getElementById("pitch-slider");
 const speedSlider = document.getElementById("speed-slider");
-let currVolume= 1;
-let currPitch= 1;
-let currSpeed= 1;
+let currVolume = 1;
+let currPitch = 1;
+let currSpeed = 1;
 
 settingsBtn.addEventListener("click", () => {
     settingsPopUp.classList.toggle("show")
