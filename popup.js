@@ -16,14 +16,14 @@ volumeSlider.addEventListener("input", (event) => {
     currVolume = event.target.value / 100;
     event.preventDefault()
     textToAudio();
-    window.localStorage.setItem('currVolume', JSON.stringify(currVolume))
+    localStorage.setItem('currVolume', JSON.stringify(currVolume))
 });
 
 pitchSlider.addEventListener("change", (event) => {
     currPitch = event.target.value / 50;
     event.preventDefault()
     textToAudio();
-    window.localStorage.setItem('currPitch', JSON.stringify(currPitch))
+    localStorage.setItem('currPitch', JSON.stringify(currPitch))
 
 });
 
@@ -31,7 +31,7 @@ speedSlider.addEventListener("change", (event) => {
     currSpeed = event.target.value / 50;
     event.preventDefault()
     textToAudio();
-    window.localStorage.setItem('currSpeed', JSON.stringify(currSpeed))
+    localStorage.setItem('currSpeed', JSON.stringify(currSpeed))
 
 });
 
